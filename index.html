@@ -11,59 +11,61 @@
 <link href="https://fonts.googleapis.com/css2?family=Freeman&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section class="navbar">
-        <nav class="navbar bg-body-tertiary ">
-            <div class="container-fluid">
-              <a class="navbar-brand head" href="#"><img src="./4EA Logo.png" alt="4EA-Logo" class="logo">4 EVER AFTER</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="offcanvas bg-outline offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" data-bs-theme="dark">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MENU</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#" style="color: rgb(218, 218, 218);">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#Decoration">Decoration</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#Services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#How It Works">How It Works</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        More
-                      </a>
-                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#Customize">Customize</a></li>
-                        <li><a class="dropdown-item" href="#Ready-made Decorations">Ready-made Decorations</a></li>
-                        <li><a class="dropdown-item" href="./packages.html">Packages</a></li>
-                        <li>
-                          <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Contact Us</a></li>
-                      </ul>
-                    </li>
-                  </ul>
-                  <form class="d-flex mt-3" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                  </form>
-                </div>
+    <section id="Home" class="navbar">
+      <nav class="navbar bg-body-tertiary ">
+          <div class="container-fluid">
+            <a class="navbar-brand head" href="#"><img src="../img/4EA Logo.png" alt="4EA-Logo" class="logo">4 EVER AFTER</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas bg-outline offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" data-bs-theme="dark">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MENU</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#Home" style="color: rgb(255, 255, 255);" >Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Decoration">Decoration</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Services">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#How It Works">How It Works</a>
+                  </li>
+                  <li>
+                    <a class="nav-link fw-light " href="./pages/packages.html"style="color: rgb(26, 136, 53);">Packages</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      More
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#Customize">Customize</a></li>
+                      <li><a class="dropdown-item" href="#Ready-made Decorations">Ready-made Decorations</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#Contact-Us">Contact Us</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex mt-3" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
               </div>
             </div>
-        </nav>
+          </div>
+      </nav>
 
         <div class="container flex-column">
           <div class="col-md-6 ">
-              <img src="./Logo.png" class="d-block mx-auto img-fluid" alt="Home-logo" width="430" height="200" loading="lazy">
+              <img src="./img/Logo.png" class="d-block mx-auto img-fluid" alt="Home-logo" width="430" height="200" loading="lazy">
           </div>
           <div class="col-md-6 p-lg-5 mx-auto my-5 mt-0">
             <h1 style="text-align: center;" class="fw-bold">Celebrate Everlasting Love Your Journey Begins Here.</h1>
@@ -141,7 +143,7 @@
             <br><span class="text-body-secondary">See for yourself.</span>
           </div>
           <div class="col-xl-5 col-md-7 ">
-            <img src="./table1.jpg" alt="Table" width="400" >
+            <img src="./img/table1.jpg" alt="Table" width="400" >
           </div>
         </div>
     
@@ -154,7 +156,7 @@
             <br><span class="text-body-secondary">See for yourself.</span>
           </div>
           <div class="col-xl-5 col-md-7">
-            <img src="./entry.jpg" alt="Table" width="400">
+            <img src="./img/entry.jpg" alt="Table" width="400">
           </div>
         </div>
   
@@ -167,7 +169,7 @@
             <br><span class="text-body-secondary">See for yourself.</span>
           </div>
           <div class="col-xl-5 col-md-7 order-md-1">
-            <img src="./arches.jpg" alt="Table" width="400">
+            <img src="./img/arches.jpg" alt="Table" width="400">
           </div>
         </div>
     
@@ -180,7 +182,7 @@
             <br><span class="text-body-secondary">See for yourself.</span>
           </div>
           <div class="col-xl-5 col-md-7">
-            <img src="./invitation.webp" alt="Table" width="400">
+            <img src="./img/invitation.webp" alt="Table" width="400">
           </div>
         </div>
   
@@ -352,7 +354,7 @@
           </div>
 
           <div class="col d-flex flex-column gap-2">
-            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-gradient fs-4 rounded-3">
+            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center  bg-gradient fs-4 rounded-3">
               <svg class="bi" width="1em" height="1em">
                 <use xlink:href="#speedometer"></use>
               </svg>
@@ -362,7 +364,7 @@
           </div>
 
           <div class="col d-flex flex-column gap-2">
-            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center bg-primary bg-gradient fs-4 rounded-3">
+            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
               <svg class="bi" width="1em" height="1em">
                 <use xlink:href="#table"></use>
               </svg>
