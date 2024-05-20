@@ -1,0 +1,93 @@
+
+
+.navbar{
+    background-image: url(./img/bg1.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    padding-top: 0;
+}
+
+nav {
+    width: 100%;
+}
+
+
+.navbar a{
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    color:rgb(186, 194, 194) ;
+}
+
+.logo{
+    height: 50px;
+    margin: 0 10px;
+    border-radius: 30%;
+}
+
+.Plan-Offers{
+    text-decoration:none;
+    font-size: x-large;
+} 
+
+
+/**/
+
+.HIW{background-image: url(./img/corousel-bg.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 500px;
+}
+
+.carousel-content-1{
+    text-align: center;
+    margin: 210px 80px;
+}
+
+.carousel-content-2{
+    text-align: center;
+    margin: 210px 80px;
+}
+
+.carousel-content-3{
+    text-align: center;
+    margin: 210px 80px;
+}
+
+h1, h2{
+    color:#17202A;
+}
+
+.sec{
+    background-color: #b7e9e1 ;
+}
+ 
+.feature-icon-small{
+    background-color: burlywood;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Packages CSS */
+
+header {
+
+}
