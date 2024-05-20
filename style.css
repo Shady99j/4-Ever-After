@@ -1,7 +1,7 @@
 
 
 .navbar{
-    background-image: url(./img/bg1.png);
+    background-image: url(./bg1.png);
     background-repeat:no-repeat;
     background-size:cover;
     background-attachment: fixed;
@@ -34,7 +34,7 @@ nav {
 
 /**/
 
-.HIW{background-image: url(./img/corousel-bg.png);
+.HIW{background-image: url(./corousel-bg.png);
     background-repeat:no-repeat;
     background-size:cover;
     height: 500px;
@@ -87,7 +87,3 @@ h1, h2{
 
 
 /* Packages CSS */
-
-header {
-
-}
